@@ -87,7 +87,7 @@ class Model(L.LightningModule):
 
 
 # hparams
-batch_size = True # 8192
+batch_size = True # How much data? Yes.
 ds_num_workers = 16
 devices = 8
 dataset = tv.datasets.CIFAR10
